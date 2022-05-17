@@ -1,0 +1,146 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navbar */
+
+nav {
+    background-color: #083358;
+}
+
+.navbar {
+    width: 85%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    background-color: #083358;
+}
+
+.logo h1 {
+    font-size: 35px;
+    font-family: 'Russo One', sans-serif;
+    color: white;
+}
+
+.navbar-menu ul {
+    display: flex;
+}
+
+.navbar-menu ul li {
+    padding-left: 48px;
+}
+
+.navbar-menu a {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.navbar-menu a:hover {
+    color: salmon;
+    transition: 300ms ease-in-out;
+}
+
+/* Header Profile */
+
+section {
+    background-color: #083358;
+}
+
+.profile-img {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-img img {
+    width: 250px;
+    margin-top: 90px;
+}
+
+.name {
+    position: relative;
+}
+
+.name h2 {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: white;
+    font-size: 2em;
+}
+
+.profesi-block {
+    display: flex;
+    justify-content: center;
+    background-color: #083358;
+}
+
+.profesi-block p {
+    position: absolute;
+    margin-top: 7px;
+    padding: 7px;
+    background-color: #F05454;
+    letter-spacing: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.socmed-link {
+    background-color: #083358;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.socmed-link .insta {
+    padding-right: 10px;
+}
+
+.socmed-link .pinterest {
+    padding: 0 10px;
+}
+
+.socmed-link .dribbble {
+    padding-left: 10px;
+}
+
+.hire-button {
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+
+button {
+    background-color: #F05454;
+    padding: 15px 60px;
+    border-radius: 15px;
+    border-style: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: white;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.200);
+}
+
+button:hover {
+    background-color: #c94545;
+    transition: 300ms ease-in-out;
+}
