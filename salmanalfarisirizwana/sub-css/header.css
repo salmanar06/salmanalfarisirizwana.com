@@ -1,0 +1,87 @@
+section {
+    background-color: var(--background);
+}
+
+.profile-img {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-img img {
+    width: 230px;
+    margin-top: 90px;
+}
+
+.name {
+    position: relative;
+}
+
+.name h2 {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
+
+.profesi-block {
+    display: flex;
+    justify-content: center;
+}
+
+.profesi-block p {
+    position: absolute;
+    margin-top: 7px;
+    padding: 7px;
+    background-color: var(--highlight);
+    letter-spacing: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.socmed-link {
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.socmed-link .insta {
+    padding-right: 10px;
+}
+
+.socmed-link .pinterest {
+    padding: 0 10px;
+}
+
+.socmed-link .dribbble {
+    padding-left: 10px;
+}
+
+.hire-button {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+
+button {
+    background-color: var(--buttonbg);
+    padding: 15px 60px;
+    border-radius: 15px;
+    border-style: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--text);
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.200);
+    transition: 300ms ease-in-out;
+}
+
+button:hover {
+    background-color: var(--hoverbtn);
+}

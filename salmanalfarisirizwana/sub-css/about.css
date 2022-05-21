@@ -1,0 +1,9 @@
+header .about-me {
+    background-color: var(--background2);
+}
+
+header .judul h1 {
+    color: var(--text2);
+    font-size: 2em;
+
+}

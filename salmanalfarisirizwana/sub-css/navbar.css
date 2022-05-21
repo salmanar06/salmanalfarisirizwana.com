@@ -1,0 +1,40 @@
+nav {
+    background-color: var(--background);
+}
+
+.navbar {
+    width: 85%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    background-color: var(--background);
+}
+
+.logo h1 {
+    font-size: 35px;
+    font-family: 'Russo One', sans-serif;
+    color: var(--text);
+}
+
+.navbar-menu ul {
+    display: flex;
+}
+
+.navbar-menu ul li {
+    padding-left: 48px;
+}
+
+.navbar-menu a {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 300ms ease-in-out;
+    color: var(--text);
+}
+
+.navbar-menu a:hover {
+    color: var(--hoverlink);
+}

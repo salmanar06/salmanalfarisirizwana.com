@@ -1,0 +1,42 @@
+@import url(sub-css/navbar.css);
+@import url(sub-css/header.css);
+@import url(sub-css/about.css);
+
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --buttonbg: #F05454;
+    --background: #083358;
+    --background2: #F3F9FF;
+    --highlight: #F05454;
+    --text: white;
+    --hoverbtn: #FF4545;
+    --hoverlink: #FEC89A;
+    --text2: #000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header Profile */
+
+
+/* About Me */
+
+header .about-me {
+    background-color: var(--background2);
+}
+
+header .judul h1 {
+    color: var(--text2);
+    font-size: 2em;
+
+}
