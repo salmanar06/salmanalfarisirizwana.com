@@ -1,6 +1,6 @@
-@import url(sub-css/navbar.css);
-@import url(sub-css/header.css);
-@import url(sub-css/about.css);
+@import url(/salmanalfarisirizwana/sub-css/navbar.css);
+@import url(/salmanalfarisirizwana/sub-css/header.css);
+@import url(/salmanalfarisirizwana/sub-css/about.css);
 
 * {
     text-decoration: none;
@@ -12,13 +12,23 @@
 :root {
     --buttonbg: #F05454;
     --background: #083358;
-    --background2: #F3F9FF;
+    --background2: #edf6ff;
     --highlight: #F05454;
     --text: white;
     --hoverbtn: #FF4545;
     --hoverlink: #FEC89A;
     --text2: #000;
+    --background3: #ffffff;
+
+    /* SLIDER  */
+
+    --slider: #F1F1F1;
+    --development: #FFD717;
+    --visual: #00377E;
+    --photography: #FEC89A;
+    --apps: #650000;
 }
+
 
 body {
     margin: 0;
@@ -27,16 +37,3 @@ body {
 }
 
 /* Header Profile */
-
-
-/* About Me */
-
-header .about-me {
-    background-color: var(--background2);
-}
-
-header .judul h1 {
-    color: var(--text2);
-    font-size: 2em;
-
-}

@@ -80,6 +80,10 @@ button {
     color: var(--text);
     box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.200);
     transition: 300ms ease-in-out;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 button:hover {
