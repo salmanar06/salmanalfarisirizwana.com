@@ -1,12 +1,17 @@
 @import url(/salmanalfarisirizwana/sub-css/navbar.css);
 @import url(/salmanalfarisirizwana/sub-css/header.css);
 @import url(/salmanalfarisirizwana/sub-css/about.css);
+@import url(/salmanalfarisirizwana/sub-css/service.css);
 
 * {
     text-decoration: none;
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 :root {
