@@ -125,6 +125,7 @@ input[type=button]:hover {
     font-family: 'Poppin', sans-serif;
     font-weight: 500;
     font-size: 15px;
+    opacity: 0.3;
 }
 
 .skill ul li {

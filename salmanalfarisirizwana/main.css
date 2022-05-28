@@ -2,6 +2,7 @@
 @import url(/salmanalfarisirizwana/sub-css/header.css);
 @import url(/salmanalfarisirizwana/sub-css/about.css);
 @import url(/salmanalfarisirizwana/sub-css/service.css);
+@import url(/salmanalfarisirizwana//sub-css/experience.css);
 
 * {
     text-decoration: none;
@@ -24,6 +25,7 @@ html {
     --hoverlink: #FEC89A;
     --text2: #000;
     --background3: #ffffff;
+    --year: #C4C4C4;
 
     /* SLIDER  */
 

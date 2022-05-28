@@ -1,0 +1,66 @@
+.experience-container {
+    background-color: var(--background2);
+}
+
+.judul-experience h1 {
+    color: var(--text2);
+    font-size: 35px;
+    margin-left: 7%;
+    margin-bottom: 75px;
+}
+
+.sub-container-experience {
+    width: 500px;
+    background-color: var(--text);
+    box-sizing: border-box;
+    padding: 40px 41px;
+    border-radius: 15px;
+}
+
+.experience-wrapper2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 51px;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.ex-po-wrapper1 h5,
+.ex-po-wrapper2 h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--year);
+}
+
+.ex-po-wrapper1 h3,
+.ex-po-wrapper2 h3 {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text2);
+}
+
+.ex-po-wrapper1 p {
+    font-size: 14px;
+    font-weight: 400;
+    width: 247px;
+    margin-bottom: 64px;
+}
+
+.ex-po-wrapper1 p:nth-child(2) {
+    width: 247px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 57px;
+}
+
+.ex-po-wrapper1 p:nth-child(3) {
+    width: 319px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.ex-po-wrapper2 .experience-profile5 p {
+    width: 400px;
+    margin-bottom: 55px;
+}
